@@ -91,6 +91,7 @@ My standard recommended build method is:
 > cmake -G Ninja -DCMAKE_VERBOSE_MAKEFILE=ON -S . -B build
 > cmake --build ./build
 ```
+(* assumes powershell or unix shell)
 
 Compile and build. The program doesn't do anything, but it won't build & link
 if it didn't have access to Python correctly.
